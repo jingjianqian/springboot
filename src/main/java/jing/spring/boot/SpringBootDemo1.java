@@ -1,4 +1,4 @@
-package jing.jing.spring;
+package jing.spring.boot;
 
 
 import org.springframework.boot.SpringApplication;
@@ -9,9 +9,9 @@ import org.springframework.web.bind.annotation.RestController;
 
 @SpringBootApplication
 @RestController
-public class SpringBoot {
+public class SpringBootDemo1 {
     public static void main(String[] args) throws Exception {
-        SpringApplication.run(SpringBoot.class, args);
+        SpringApplication.run(SpringBootDemo1.class, args);
     }
 
     @GetMapping("/hello")
