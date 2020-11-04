@@ -18,7 +18,8 @@ public class Demo001EurekaClient {
     }
 
     public static void main(String[] args) {
-        new SpringApplicationBuilder(Demo001EurekaClient.class).web(true).run(args);
+        //TODO 需要解决的报错
+        //new SpringApplicationBuilder(Demo001EurekaClient.class).web(true).run(args);
     }
 }
 
